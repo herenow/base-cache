@@ -85,6 +85,14 @@ Clears the given cache table.
 cache.clear()
 ```
 
+***cache.size()***
+
+Return the current size of the cache table
+
+```javascript
+cache.size()
+```
+
 ##Notes
 * Once the cache table hits its __max_size__ it will start replacing the older cache elements.
 

@@ -1,0 +1,31 @@
+{
+  "name": "base-cache",
+  "version": "0.0.1",
+  "description": "A simple node.js base module for creating cache tables based on hashtables with a max size.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node ./node_modules/.bin/nodeunit test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/herenow/base-cache"
+  },
+  "keywords": [
+    "cache",
+    "node-cache",
+    "base-cache",
+    "cache-table"
+  ],
+  "author": "herenow",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/herenow/base-cache/issues"
+  },
+  "homepage": "https://github.com/herenow/base-cache",
+  "devDependencies": {
+    "nodeunit": "^0.9.0"
+  }
+}
