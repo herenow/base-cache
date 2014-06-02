@@ -1,6 +1,6 @@
 {
   "name": "base-cache",
-  "version": "0.0.1",
+  "version": "0.0.11",
   "description": "A simple node.js base module for creating cache tables based on hashtables with a max size.",
   "main": "index.js",
   "directories": {
@@ -26,6 +26,6 @@
   },
   "homepage": "https://github.com/herenow/base-cache",
   "devDependencies": {
-    "nodeunit": "^0.9.0"
+    "nodeunit": "*"
   }
 }
