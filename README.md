@@ -1,7 +1,7 @@
 base-cache
 ==========
 
-A simple node.js base module for creating cache tables, based on hashes/keys. This module was written for the light-router(https://github.com/herenow/light-router) cache manager, so performance is a concern in this module :)
+A simple node.js base module for creating cache tables, based on hashes/keys. This module was written for the [light-router](https://github.com/herenow/light-router) cache manager, so performance is a concern in this module :)
 
 ##Install
 ```
@@ -52,6 +52,7 @@ else {
 ##Methods
 
 ***Cache.Constructor(options)***
+
 This initializes a new cache hash table an returns it. You can send an optional options object.
 
 ```javascript
@@ -61,6 +62,7 @@ var cache = new Cache({
 ```
 
 ***cache.add(key, value)***
+
 Add something to the cache table.
 
 ```javascript
@@ -68,6 +70,7 @@ cache.add('bananas.stock', 1000)
 ```
 
 ***cache.find(key)***
+
 Find something in the cache table.
 
 ```javascript
@@ -75,11 +78,15 @@ cache.find('bananas.stock')
 ```
 
 ***cache.clear()***
+
 Clears the given cache table.
 
 ```javascript
 cache.clear()
 ```
+
+##Notes
+* Once the cache table hits its __max_size__ it will start replacing the older cache elements.
 
 
 ##Contributions
