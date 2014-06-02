@@ -1,5 +1,6 @@
 base-cache
 ==========
+[![Build Status](https://travis-ci.org/herenow/base-cache.svg?branch=master)](https://travis-ci.org/herenow/base-cache)
 
 A simple node.js base module for creating cache tables, based on hashes/keys. This module was written for the [light-router](https://github.com/herenow/light-router) cache manager, so performance is a concern in this module :)
 
