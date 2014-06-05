@@ -64,7 +64,7 @@ var cache = new Cache({
 
 ***cache.add(key, value)***
 
-Add something to the cache table.
+Add something to the cache table or update if exists.
 
 ```javascript
 cache.add('bananas.stock', 1000)
